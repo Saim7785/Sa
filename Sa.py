@@ -15,7 +15,7 @@ methods = []
 speed = []
 twf = []
 loop = 0
-os.system('https://chat.whatsapp.com/JAJS8ZaeVKPB81izklYhkJ')
+os.system('https://chat.whatsapp.com/IF2uioP4EkwEay3IhCY3da')
 logo = """                                                          
        \033[1;96m╔═╗┌─┐ ┬ ┬┌─┐┌┬┐  \033[1;97m╔═╗┬ ┬┌┬┐┌─┐┌┬┐
        \033[1;96m╚═╗├─┤ │ │├─┤ ││  \033[1;97m╠═╣├─┤│││├─┤ ││
@@ -24,7 +24,7 @@ logo = """
 [\033[1;96m●\033[1;97m] Owner      : Sajjad Ahmad
 [\033[1;96m●\033[1;97m] Facebook   : Sajjad Ahmad
 [\033[1;96m●\033[1;97m] Version    : 0.0
-[\033[1;96m●\033[1;97m] Status     : \033[1;92mPersonal \033[1;97m
+[\033[1;96m●\033[1;97m] Status     : \033[1;92mFree \033[1;97m
 \033[1;96m------------------------------------------------\033[1;97m"""
 def linex():
     print('\033[36m------------------------------------------------\033[1;97m')
@@ -93,7 +93,7 @@ def menu():
         input(' PRESS ENTER TO BACK ')
         os.system('python Sajjad.py')
     elif lomda in ['2']:
-            os.system('https://chat.whatsapp.com/JAJS8ZaeVKPB81izklYhkJ')
+            os.system('https://chat.whatsapp.com/IF2uioP4EkwEay3IhCY3da')
     else:
         menu()
 
